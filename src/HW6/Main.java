@@ -20,11 +20,11 @@ public class Main {
         fruits.add("Apple");
         fruits.add("Grapefruit");
         fruits.add("Orange");
-         if (fruits.contains("Orange")) {
-             Collections.replaceAll(fruits, "Orange", "Grapefruit");
-         }else {
-             System.out.println("Value Orange not present");
-         }
+        if (fruits.contains("Orange")) {
+            Collections.replaceAll(fruits, "Orange", "Grapefruit");
+        } else {
+            System.out.println("Value Orange not present");
+        }
         System.out.println(fruits);
 
         ArrayList<Integer> data1 = new ArrayList<>();
