@@ -6,7 +6,6 @@ import java.util.Objects;
 public class KeyDate {
     private final LocalDate localDate;
 
-
     public KeyDate(int year, int month, int day) {
         localDate = LocalDate.of(year, month, day);
     }
