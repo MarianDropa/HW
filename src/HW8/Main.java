@@ -27,8 +27,6 @@ public class Main {
         System.out.println("Books for this day is - " + library.searchByDates(new KeyDate(2021, 5, 3)));
         System.out.println("******************");
         library.rangeForOneMonth(2021, 5);
-
-
     }
 }
 
