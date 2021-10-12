@@ -6,6 +6,7 @@ import java.util.Objects;
 public class KeyDate {
     private final LocalDate localDate;
 
+
     public KeyDate(int year, int month, int day) {
         localDate = LocalDate.of(year, month, day);
     }
@@ -14,8 +15,8 @@ public class KeyDate {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        KeyDate localDate1 = (KeyDate) o;
-        return Objects.equals(localDate, localDate1.localDate);
+        KeyDate keyDate = (KeyDate) o;
+        return Objects.equals(localDate, keyDate.localDate);
     }
 
     @Override
