@@ -86,7 +86,7 @@ public class MyArrayListTests {
         g.add(3);
         g.add(4);
         g.add(5);
-        System.out.println(g.get(22));
+        System.out.println(g.get(10));
     }
 }
 
